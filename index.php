@@ -12,7 +12,7 @@ echo "<h3>2.3 Array Sum </h3>";
 
 $valuesArray = ["F", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
     [5, 5],
-    [10, 10.85, ["14.25", "AA"]]
+    [10, 11.85, ["14.25", "AA"]]
 ];
 
 /**
@@ -36,8 +36,7 @@ function summaElementsArray(array $array): float
     return $resultSumma;
 }
 
-
-echo "<b>The sum of all elements of the array is:</b>" . summaElementsArray($valuesArray);
+echo 'The sum of all elements of the array is:'.PHP_EOL . summaElementsArray($valuesArray).PHP_EOL;
 
 
 
